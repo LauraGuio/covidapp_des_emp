@@ -1,0 +1,11 @@
+com\muestra_mysql\model\Ciudade.class
+com\muestra_mysql\model\Persona.class
+com\muestra_mysql\model\Registro.class
+com\muestra_mysql\model\Empresa.class
+com\muestra_mysql\model\HistoricosDecreto.class
+com\muestra_mysql\model\Departamento.class
+com\muestra_mysql\model\EmpresasLogin.class
+com\muestra_mysql\model\Decreto.class
+com\muestra_mysql\model\Login.class
+com\muestra_mysql\model\TiposDocumento.class
+com\muestra_mysql\model\Enfermedade.class
