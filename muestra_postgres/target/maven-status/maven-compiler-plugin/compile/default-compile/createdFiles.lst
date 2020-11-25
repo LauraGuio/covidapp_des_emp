@@ -1,0 +1,11 @@
+com\muestra_postgres\model\EmpresaLogin.class
+com\muestra_postgres\model\Persona.class
+com\muestra_postgres\model\Departamento.class
+com\muestra_postgres\model\Empresa.class
+com\muestra_postgres\model\Ciudade.class
+com\muestra_postgres\model\Registro.class
+com\muestra_postgres\model\HistoricosDecreto.class
+com\muestra_postgres\model\Decreto.class
+com\muestra_postgres\model\Enfermedade.class
+com\muestra_postgres\model\LoginPostgres.class
+com\muestra_postgres\model\TiposDocumento.class
