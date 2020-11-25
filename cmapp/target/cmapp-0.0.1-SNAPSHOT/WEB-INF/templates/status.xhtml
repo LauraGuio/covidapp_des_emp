@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:f="http://java.sun.com/jsf/core" xmlns:h="http://java.sun.com/jsf/html" xmlns:p="http://primefaces.org/ui">
+	<p:ajaxstatus style="width:64px;height:64px;position:fixed;right:5px;bottom:5px">
+		<f:facet name="start">
+			<h:graphicimage url="/images/cargando.gif" />
+		</f:facet>
+		<f:facet name="complete">
+			<h:outputtext value="" />
+		</f:facet>
+	</p:ajaxstatus>
+
+
+	<p:dialog header="#{msg[&apos;headreCharge&apos;]}" modal="true" closable="false" widgetVar="showStatus" resizable="false">
+		<h:outputlabel value="#{msg[&apos;labelProceso&apos;]}" styleClass="texto" />
+		<h:panelgrid columns="2">
+			<h:graphicimage url="/images/cargando.gif" /><br />
+		</h:panelgrid>
+	</p:dialog>
+</ui:composition>
